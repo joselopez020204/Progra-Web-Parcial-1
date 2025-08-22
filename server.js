@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 app.use(cors());
 
-const sequelize = new Sequelize('farmaciaweb', 'root', '', {
+const sequelize = new Sequelize('recursoshumanos', 'root', '', {
   host: '127.0.0.1',
   port: 3306,
   dialect: 'mysql',

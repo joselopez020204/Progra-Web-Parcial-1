@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Archivos temporales
+*.log
+
+# Archivos del entorno
+.env
+.DS_Store
+
+# Salidas de producción
+dist/
+build/
+
+#base de datos
+mysql-init/farmaciaweb.sql
+
+# Configs locales
+.vscode/
+.idea/
+
+# Evita subir dependencias innecesarias (duplicado por seguridad)
+node_modules/
+
+# Archivos del entorno (duplicado por seguridad)
+.env
